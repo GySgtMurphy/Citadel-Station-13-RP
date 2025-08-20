@@ -1075,7 +1075,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "aIX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 9
@@ -1113,7 +1113,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/brig,
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "aJP" = (
 /obj/random/maintenance/security,
 /obj/structure/cable{
@@ -1294,7 +1294,7 @@
 /obj/machinery/mech_recharger,
 /obj/vehicle/sealed/mecha/combat/fighter/baron/sec/loaded,
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "aNK" = (
 /turf/simulated/wall/prepainted,
 /area/hallway/primary/aft)
@@ -3256,7 +3256,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "ckq" = (
 /obj/item/radio/intercom{
 	dir = 4;
@@ -3673,7 +3673,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "cCy" = (
 /obj/machinery/light,
 /turf/simulated/floor/plating,
@@ -4281,7 +4281,7 @@
 	pixel_y = 10
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "dam" = (
 /obj/machinery/door/firedoor/glass{
 	dir = 8
@@ -4486,7 +4486,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/external_airlock,
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "dfP" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -5535,7 +5535,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "dIR" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
@@ -6120,7 +6120,7 @@
 	req_one_access = list(1,2)
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "eaR" = (
 /obj/structure/railing{
 	dir = 8
@@ -6243,7 +6243,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/brig,
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "egZ" = (
 /obj/structure/closet,
 /obj/random/maintenance/clean,
@@ -6965,7 +6965,7 @@
 "eKA" = (
 /obj/structure/closet/emcloset,
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "eLe" = (
 /obj/item/material/ashtray/bronze,
 /obj/effect/floor_decal/techfloor,
@@ -7219,7 +7219,7 @@
 	pixel_x = -26
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "eTt" = (
 /obj/machinery/light{
 	dir = 4
@@ -7950,7 +7950,7 @@
 	},
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/airless/ceiling,
-/area/security/hanger)
+/area/security/hangar)
 "ftn" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -8300,7 +8300,7 @@
 /obj/machinery/mech_recharger,
 /obj/vehicle/sealed/mecha/combat/fighter/baron/sec/loaded,
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "fJm" = (
 /obj/machinery/atmospherics/component/unary/vent_scrubber/on{
 	dir = 8
@@ -9770,7 +9770,7 @@
 	pixel_y = 26
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "gJD" = (
 /obj/structure/sign/directions/cryo{
 	pixel_x = 31;
@@ -9951,7 +9951,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "gRB" = (
 /obj/structure/cable/green{
 	icon_state = "2-8"
@@ -11067,7 +11067,7 @@
 	dir = 5
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "hDD" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11113,7 +11113,7 @@
 /area/security/interrogation)
 "hFU" = (
 /turf/simulated/wall/r_wall/prepainted/security,
-/area/security/hanger)
+/area/security/hangar)
 "hGh" = (
 /obj/machinery/door/firedoor/glass,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11790,7 +11790,7 @@
 /obj/structure/table/steel,
 /obj/machinery/recharger,
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "ieh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -11888,7 +11888,7 @@
 	pixel_y = -26
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "iiI" = (
 /obj/structure/cable/cyan{
 	icon_state = "1-8"
@@ -12461,7 +12461,7 @@
 /obj/spawner/window/low_wall/reinforced,
 /obj/map_helper/paint_stripe/darkred,
 /turf/simulated/floor,
-/area/security/hanger)
+/area/security/hangar)
 "iBS" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -12554,7 +12554,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "iDg" = (
 /turf/simulated/open,
 /area/triumph/station/stairs_four)
@@ -13186,7 +13186,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "jcE" = (
 /obj/machinery/door/firedoor/glass{
 	dir = 8
@@ -14066,7 +14066,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "jFL" = (
 /obj/structure/sign/warning/secure_area{
 	pixel_x = -32
@@ -15340,7 +15340,7 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "kwF" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/techfloor/grid,
@@ -16337,7 +16337,7 @@
 /obj/machinery/shield_diffuser,
 /obj/map_helper/access_helper/airlock/station/external_airlock,
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "lbH" = (
 /obj/machinery/computer/ship/navigation{
 	dir = 1
@@ -16924,7 +16924,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "lDo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -17615,7 +17615,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "meS" = (
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 8
@@ -18489,7 +18489,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "mLh" = (
 /obj/machinery/door/firedoor/glass,
 /obj/spawner/window/low_wall/reinforced,
@@ -19490,7 +19490,7 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "nAF" = (
 /obj/machinery/disperser/back{
 	dir = 4
@@ -23961,7 +23961,7 @@
 	pixel_x = -22
 	},
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "qDk" = (
 /obj/effect/floor_decal/spline/plain{
 	dir = 8
@@ -25495,7 +25495,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "rKu" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -25635,7 +25635,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible,
 /obj/map_helper/access_helper/airlock/station/external_airlock,
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "rRi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -26284,7 +26284,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/brig,
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "sly" = (
 /obj/item/pen/crayon/mime,
 /obj/item/pen/crayon/marker/mime,
@@ -27012,7 +27012,7 @@
 	name = "\improper INTERNALS REQUIRED FOR FIGHTER CRAFT"
 	},
 /turf/simulated/wall/r_wall/prepainted/security,
-/area/security/hanger)
+/area/security/hangar)
 "sRs" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -27230,7 +27230,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "sZS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
@@ -27417,7 +27417,7 @@
 	pixel_x = 30
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "tjm" = (
 /obj/structure/cable/green{
 	icon_state = "1-2"
@@ -27579,7 +27579,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "tqc" = (
 /obj/effect/floor_decal/borderfloor/corner{
 	dir = 8
@@ -27849,7 +27849,7 @@
 /obj/machinery/atmospherics/portables_connector,
 /obj/machinery/portable_atmospherics/canister/air/airlock,
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "tAk" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on{
 	dir = 4
@@ -28884,7 +28884,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "uhc" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
@@ -28971,7 +28971,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/security/brig,
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "ult" = (
 /obj/structure/table/steel,
 /obj/machinery/embedded_controller/radio/airlock/airlock_controller{
@@ -28985,7 +28985,7 @@
 	tag_interior_door = "sec_shuttle_inner"
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "ulS" = (
 /obj/machinery/vending/snack,
 /turf/simulated/floor/carpet,
@@ -29348,7 +29348,7 @@
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "uxe" = (
 /obj/structure/railing,
 /obj/effect/floor_decal/techfloor,
@@ -29573,7 +29573,7 @@
 /obj/machinery/power/apc/south_mount,
 /obj/structure/cable/green,
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "uDk" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -32194,7 +32194,7 @@
 /obj/spawner/window/low_wall/reinforced,
 /obj/map_helper/paint_stripe/darkred,
 /turf/simulated/floor,
-/area/security/hanger)
+/area/security/hangar)
 "wzY" = (
 /turf/simulated/floor/tiled/old_tile/white,
 /area/security/brig)
@@ -32935,7 +32935,7 @@
 	},
 /obj/map_helper/access_helper/airlock/station/external_airlock,
 /turf/simulated/floor/tiled/old_cargo/gray,
-/area/security/hanger)
+/area/security/hangar)
 "xbM" = (
 /turf/simulated/wall/r_wall/prepainted/exploration,
 /area/gateway)
@@ -32958,13 +32958,13 @@
 	icon_state = "1-2"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "xcw" = (
 /obj/structure/bed/chair/office/dark{
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
-/area/security/hanger)
+/area/security/hangar)
 "xcH" = (
 /obj/machinery/door/blast/regular{
 	density = 0;
@@ -32979,7 +32979,7 @@
 /obj/spawner/window/low_wall/reinforced,
 /obj/map_helper/paint_stripe/darkred,
 /turf/simulated/floor,
-/area/security/hanger)
+/area/security/hangar)
 "xdl" = (
 /obj/structure/cable/green{
 	icon_state = "4-8"
@@ -33462,7 +33462,7 @@
 	id_tag = "sec_shuttle_pump"
 	},
 /turf/simulated/floor/plating,
-/area/security/hanger)
+/area/security/hangar)
 "xoy" = (
 /obj/machinery/light/small,
 /obj/structure/table/woodentable,
@@ -34070,7 +34070,7 @@
 	icon_state = "2-4"
 	},
 /turf/simulated/floor/tiled/dark,
-/area/security/hanger)
+/area/security/hangar)
 "xGU" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -34538,7 +34538,7 @@
 "xZZ" = (
 /obj/machinery/shield_diffuser,
 /turf/simulated/floor/airless/ceiling,
-/area/security/hanger)
+/area/security/hangar)
 "ybJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
