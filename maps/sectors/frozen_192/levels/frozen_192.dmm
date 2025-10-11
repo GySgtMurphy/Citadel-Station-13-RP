@@ -1,9 +1,7 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "at" = (
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/obj/structure/bed,
+/turf/simulated/floor,
 /area/class_p/unexplored)
 "ax" = (
 /obj/structure/barricade,
@@ -18,10 +16,7 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "bs" = (
 /obj/structure/sandbag,
@@ -29,24 +24,23 @@
 /area/class_p/unexplored)
 "by" = (
 /obj/structure/table/standard,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "bC" = (
-/obj/structure/blob/normal,
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
+"bE" = (
+/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
+	dir = 8
 	},
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "bQ" = (
 /obj/vehicle_old/train/rover/engine/dunebuggy,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "bR" = (
 /obj/structure/cable{
@@ -55,10 +49,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "cp" = (
 /obj/structure/table/standard,
@@ -69,20 +60,14 @@
 	icon_state = "0-2"
 	},
 /obj/machinery/power/smes/buildable/point_of_interest,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "cR" = (
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
 /obj/machinery/power/terminal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "cT" = (
 /obj/machinery/door/airlock/external/glass,
@@ -91,11 +76,11 @@
 /area/class_p/unexplored)
 "dM" = (
 /obj/structure/table/wooden_reinforced,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"dP" = (
+/obj/structure/fans/tiny,
+/turf/simulated/floor,
 /area/class_p/unexplored)
 "dV" = (
 /turf/simulated/floor/outdoors/ice,
@@ -108,10 +93,17 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"fj" = (
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
 	},
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "fK" = (
 /obj/effect/shuttle_landmark/automatic{
@@ -122,7 +114,6 @@
 "gu" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "gw" = (
@@ -137,10 +128,7 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "hq" = (
 /obj/machinery/light{
@@ -152,11 +140,13 @@
 /turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "hR" = (
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
 	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "hY" = (
 /obj/machinery/door/airlock/centcom{
@@ -164,10 +154,7 @@
 	req_one_access = null
 	},
 /obj/structure/barricade,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "iq" = (
 /obj/machinery/air_alarm/alarms_hidden{
@@ -176,21 +163,17 @@
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "ix" = (
-/obj/machinery/atmospherics/component/unary/vent_pump/on,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/obj/effect/floor_decal/industrial/halfstair,
+/obj/structure/railing/grey{
+	dir = 4
 	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "iJ" = (
 /obj/machinery/atmospherics/component/unary/heater{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "iL" = (
 /turf/simulated/floor/outdoors/snow/class_p/no_tree,
@@ -199,16 +182,12 @@
 /obj/machinery/atmospherics/pipe/manifold/visible/green{
 	dir = 4
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "jt" = (
 /obj/structure/bed,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "jx" = (
@@ -217,6 +196,10 @@
 	},
 /turf/simulated/floor/outdoors/snow/class_p/no_tree,
 /area/class_p/explored)
+"jH" = (
+/obj/machinery/atmospherics/pipe/simple/visible/universal,
+/turf/simulated/floor,
+/area/class_p/unexplored)
 "jK" = (
 /obj/machinery/light{
 	dir = 1
@@ -227,11 +210,10 @@
 /turf/simulated/floor/outdoors/shelfice,
 /area/class_p/unexplored)
 "kU" = (
-/obj/machinery/atmospherics/component/unary/vent_scrubber/on{
-	dir = 1
+/obj/machinery/light{
+	dir = 8
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/turf/simulated/wall/r_wall/prepainted/science,
 /area/class_p/unexplored)
 "lS" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
@@ -241,26 +223,37 @@
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "lW" = (
-/mob/living/simple_mob/animal/space/tree{
-	iff_factions = "frozen"
-	},
-/turf/simulated/floor/outdoors/snow/class_p,
+/obj/machinery/lathe/mecha_part_fabricator,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "lZ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/structure/railing/grey{
 	dir = 4
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/obj/effect/floor_decal/industrial/halfstair{
+	dir = 1
 	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "ma" = (
 /obj/structure/table/wooden_reinforced,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "ml" = (
+/obj/structure/table/reinforced,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
+"mt" = (
+/obj/effect/floor_decal/industrial/halfstair,
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
+"mB" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "mD" = (
@@ -281,8 +274,7 @@
 	req_one_access = null
 	},
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "ot" = (
@@ -292,22 +284,39 @@
 /obj/machinery/light,
 /turf/simulated/floor,
 /area/class_p/unexplored)
+"pp" = (
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
 "qb" = (
-/obj/structure/blob/normal,
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
+	},
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "qo" = (
-/obj/structure/anomaly_container,
-/obj/machinery/artifact,
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/obj/structure/fans/tiny,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "qp" = (
-/obj/random/mob/robotic/hivebot{
-	mob_faction = "frozen"
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
 	},
-/turf/simulated/floor/outdoors/snow/class_p/no_tree,
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "qJ" = (
 /obj/machinery/door/airlock/centcom{
@@ -326,37 +335,38 @@
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "rb" = (
 /obj/structure/table/rack/shelf,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
+"rz" = (
+/obj/machinery/lathe/r_n_d/circuit_imprinter,
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
 "rK" = (
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "sA" = (
 /obj/machinery/artifact_scanpad,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
+/area/class_p/unexplored)
+"sD" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "sL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "sS" = (
 /obj/structure/cable{
@@ -365,33 +375,22 @@
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "sV" = (
 /obj/machinery/door/airlock/multi_tile/metal/mait{
 	dir = 4
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "tr" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "tw" = (
 /obj/structure/table/marble,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "tN" = (
 /obj/machinery/door/blast/shutters,
@@ -399,10 +398,8 @@
 /area/class_p/unexplored)
 "uk" = (
 /obj/structure/barricade,
-/obj/structure/blob/normal,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "vh" = (
@@ -412,12 +409,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/blob/normal,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "vm" = (
 /obj/machinery/atmospherics/pipe/manifold/visible/green,
@@ -430,28 +422,19 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "wV" = (
 /obj/machinery/light{
 	dir = 1
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "xz" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "xD" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
@@ -464,16 +447,20 @@
 /obj/machinery/artifact_harvester,
 /turf/simulated/floor,
 /area/class_p/unexplored)
+"yH" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/halfstair{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
 "yP" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Airlock";
-	req_one_access = null
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 4
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "yW" = (
 /turf/simulated/wall,
@@ -488,42 +475,36 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 9
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "AS" = (
 /obj/structure/bedsheetbin,
-/obj/structure/blob/normal,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "Bp" = (
-/obj/structure/table/wooden_reinforced,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
 	},
-/area/class_p/unexplored)
-"BD" = (
-/obj/machinery/atmospherics/pipe/manifold/hidden/supply,
-/obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/railing/grey{
 	dir = 1
 	},
-/obj/structure/blob/normal,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
+"BD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
 	},
+/turf/simulated/floor,
 /area/class_p/unexplored)
 "Cj" = (
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "CU" = (
@@ -537,7 +518,6 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Dv" = (
@@ -546,17 +526,13 @@
 "DH" = (
 /obj/structure/table/standard,
 /obj/structure/table/standard,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "DK" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/light,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "DW" = (
@@ -571,28 +547,27 @@
 "Ea" = (
 /obj/machinery/artifact,
 /obj/structure/anomaly_container,
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Ec" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Eg" = (
 /obj/machinery/atmospherics/portables_connector,
 /turf/simulated/floor,
 /area/class_p/unexplored)
-"Ek" = (
-/obj/machinery/door/airlock/centcom{
-	name = "Airlock";
-	req_one_access = null
+"Ei" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 8
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"Ek" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "Et" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -601,7 +576,6 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "EA" = (
@@ -637,35 +611,28 @@
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Gz" = (
-/obj/structure/blob/normal,
 /obj/machinery/light,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"GB" = (
+/obj/machinery/power/smes/buildable/point_of_interest,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "GU" = (
 /obj/machinery/atmospherics/pipe/tank/air,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Hb" = (
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
-	},
+/obj/effect/decal/mecha_wreckage/ripley/firefighter,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "Hc" = (
 /obj/structure/barricade,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Hi" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "HF" = (
@@ -679,7 +646,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Io" = (
@@ -694,10 +660,7 @@
 /obj/machinery/light{
 	dir = 8
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "JD" = (
 /turf/simulated/floor,
@@ -709,22 +672,20 @@
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Ku" = (
-/obj/machinery/air_alarm/alarms_hidden{
-	pixel_y = 24
-	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/obj/effect/decal/mecha_wreckage/gygax/serenity,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "KC" = (
 /obj/structure/table/wooden_reinforced,
 /obj/item/storage/pill_bottle/dice_nerd,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"KU" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/green{
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "Lh" = (
@@ -732,8 +693,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "LI" = (
@@ -751,29 +711,20 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Pb" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Ph" = (
 /obj/machinery/door/airlock/centcom{
 	name = "Airlock";
 	req_one_access = null
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Pp" = (
 /turf/simulated/floor/outdoors/snow/class_p/no_tree,
@@ -792,21 +743,14 @@
 /area/class_p/unexplored)
 "PB" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "PK" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "PM" = (
 /obj/machinery/light{
@@ -823,12 +767,14 @@
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Qm" = (
-/obj/structure/blob/normal,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
 	},
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "QI" = (
 /obj/machinery/door/airlock/external/glass,
@@ -848,23 +794,20 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "RE" = (
-/obj/structure/blob/normal,
-/obj/machinery/light,
-/turf/simulated/floor,
+/obj/machinery/atmospherics/pipe/tank{
+	name = "Waste Tank"
+	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "RM" = (
 /obj/machinery/power/port_gen/pacman,
 /obj/structure/cable{
 	icon_state = "0-4"
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Sj" = (
 /obj/structure/cable,
@@ -886,7 +829,6 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "St" = (
@@ -898,20 +840,31 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor,
+/area/class_p/unexplored)
+"SY" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "Ue" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Us" = (
 /obj/structure/railing,
 /turf/simulated/floor/outdoors/ice,
+/area/class_p/unexplored)
+"UI" = (
+/obj/machinery/atmospherics/pipe/manifold/visible/green{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "UO" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
@@ -923,8 +876,7 @@
 "UU" = (
 /obj/structure/closet/statue,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "Vj" = (
@@ -934,19 +886,13 @@
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "VV" = (
 /obj/machinery/air_alarm/alarms_hidden{
 	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "Wc" = (
 /obj/structure/table/standard,
@@ -958,57 +904,47 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers{
 	dir = 1
 	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "WA" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 "WR" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/obj/effect/decal/mecha_wreckage/ripley,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "Xi" = (
-/obj/machinery/air_alarm/alarms_hidden{
-	pixel_y = 24
-	},
-/obj/structure/blob/normal,
-/turf/simulated/floor,
+/turf/simulated/wall/r_wall/prepainted/science,
 /area/class_p/unexplored)
 "Xl" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
+"Xn" = (
+/obj/machinery/atmospherics/component/unary/vent_pump/on{
+	dir = 4
 	},
+/turf/simulated/floor,
 /area/class_p/unexplored)
 "XN" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/obj/structure/table/steel{
+	density = 0;
+	name = "work platform"
+	},
+/turf/simulated/floor/tiled/techfloor/grid,
+/area/class_p/unexplored)
+"XQ" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
 	dir = 4
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/blob/normal,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "XR" = (
 /obj/overmap/entity/visitable/sector/class_p,
@@ -1020,15 +956,17 @@
 	name = "Airlock";
 	req_one_access = null
 	},
-/obj/structure/blob/normal,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "Yr" = (
 /turf/simulated/wall,
 /area/class_p/explored)
+"Za" = (
+/obj/machinery/atmospherics/pipe/simple/visible/black,
+/turf/simulated/floor/tiled/old_tile/blue,
+/area/class_p/unexplored)
 "Ze" = (
 /obj/structure/table/rack/shelf,
 /obj/machinery/light,
@@ -1039,20 +977,18 @@
 /area/class_p/ruins)
 "Zn" = (
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
-/obj/structure/blob/normal,
 /turf/simulated/floor,
 /area/class_p/unexplored)
 "Zv" = (
-/obj/random/mob/robotic/hivebot{
-	mob_faction = "frozen"
+/obj/structure/railing/grey{
+	dir = 1
 	},
-/turf/simulated/floor/outdoors/snow/class_p,
+/turf/simulated/floor/tiled/techfloor/grid,
 /area/class_p/unexplored)
 "ZD" = (
 /obj/machinery/artifact_analyser,
 /turf/simulated/floor/tiled/old_tile/green{
-	color = "#63A83A";
-	icon_state = "tile_full"
+	color = "#63A83A"
 	},
 /area/class_p/unexplored)
 "ZK" = (
@@ -1063,10 +999,7 @@
 	icon_state = "1-8"
 	},
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
-/turf/simulated/floor/tiled/old_tile/blue{
-	color = "#8ba7ad";
-	icon_state = "tile_full"
-	},
+/turf/simulated/floor/tiled/old_tile/blue,
 /area/class_p/unexplored)
 
 (1,1,1) = {"
@@ -1890,7 +1823,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -2455,7 +2388,6 @@ ZK
 ZK
 ZK
 ZK
-lW
 ZK
 ZK
 ZK
@@ -2485,6 +2417,7 @@ ZK
 ZK
 ZK
 ZK
+ZK
 Zl
 Zl
 Zl
@@ -2584,7 +2517,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -2615,7 +2548,7 @@ ZK
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -4552,7 +4485,7 @@ ZK
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -5373,7 +5306,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -7606,7 +7539,7 @@ ZK
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -7884,7 +7817,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -8507,27 +8440,6 @@ ZK
 ZK
 ZK
 ZK
-Zv
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-dV
-dV
-dV
-dV
-dV
-ZK
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
 ZK
 ZK
 ZK
@@ -8538,6 +8450,9 @@ ZK
 dV
 dV
 dV
+dV
+dV
+ZK
 dV
 dV
 dV
@@ -8553,38 +8468,6 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-dV
-dV
-dV
-dV
-dV
-dV
-ZK
-ZK
-ZK
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
-dV
 dV
 dV
 dV
@@ -8597,6 +8480,56 @@ dV
 dV
 dV
 ZK
+ZK
+ZK
+ZK
+ZK
+ZK
+ZK
+ZK
+ZK
+ZK
+dV
+dV
+dV
+dV
+dV
+dV
+ZK
+ZK
+ZK
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+dV
+ZK
 dV
 dV
 ZK
@@ -8607,7 +8540,6 @@ ZK
 ZK
 ZK
 ZK
-Zv
 ZK
 ZK
 ZK
@@ -8615,7 +8547,8 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
+ZK
 ZK
 ZK
 ZK
@@ -10194,11 +10127,11 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -10388,11 +10321,11 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+Dv
+Dv
+Dv
 ZK
 ZK
 ZK
@@ -10582,11 +10515,11 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+iq
+ht
+ht
+St
 ZK
 ZK
 ZK
@@ -12328,23 +12261,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -12522,23 +12455,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+cp
+Dv
+Dv
+Xi
+Dv
+Dv
+Dv
+Dv
+Dv
+Xi
+Dv
+Dv
+Dv
+Dv
+Xi
 ZK
 ZK
 ZK
@@ -12716,23 +12649,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+cp
+ht
+Dv
+Xi
+Dv
+Dv
+Dv
+Dv
+Dv
+Xi
+Dv
+Dv
+Dv
+Dv
+Xi
 ZK
 ZK
 ZK
@@ -12910,23 +12843,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+iq
+by
+ht
+St
+Xi
+Dv
+Dv
+Dv
+Dv
+Dv
+Xi
+Xi
+Dv
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -13104,23 +13037,23 @@ ZK
 ZK
 ZK
 ZK
+Xi
+Dv
+ht
+ht
+Dv
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Dv
+Dv
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 ZK
 ZK
 ZK
@@ -13298,23 +13231,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ht
+by
+ht
+St
+Xi
+Dv
+Dv
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 ZK
 ZK
 ZK
@@ -13492,23 +13425,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+by
+ht
+Dv
+Xi
+Dv
+Dv
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
 ZK
 ZK
 ZK
@@ -13686,23 +13619,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+cp
+Dv
+Dv
+Xi
+Dv
+Dv
+rK
+rK
+rK
+Xi
+Xi
+Dv
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -13880,23 +13813,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+kU
+Xi
+Xi
+Xi
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -14074,23 +14007,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+jt
+Cj
+jt
+Cj
+jt
+Cj
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -14268,23 +14201,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Cj
+Dv
+Cj
+Dv
+Cj
+Cj
+Cj
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -14462,23 +14395,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+KU
+Dv
+Cj
+Cj
+Cj
+Cj
+Cj
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -14656,23 +14589,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Cj
+jt
+Dv
+at
+Cj
+at
+Dv
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -14850,23 +14783,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+Cj
+Cj
+Cj
+AS
+AS
+Dv
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -15044,23 +14977,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+Cj
+Dv
+Dv
+Cj
+Cj
+Xi
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -15238,24 +15171,24 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+rK
+rK
+rK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -15433,23 +15366,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Dv
+rK
+rK
+rK
+rK
+Xi
+rK
+rK
+rK
+Xi
+RE
+Za
+PB
+ht
+sD
+Xi
 ZK
 ZK
 ZK
@@ -15627,23 +15560,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+rK
+rK
+rK
+Dv
+rK
+Xi
+rK
+rK
+rK
+rK
+ht
+Dv
+ht
+ht
+Dv
+Xi
 ZK
 ZK
 ZK
@@ -15821,23 +15754,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+rK
+Dv
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+rK
+ht
+jH
+UI
+mD
+VT
+Xi
 ZK
 ZK
 ZK
@@ -16015,23 +15948,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+bC
+GB
+rK
+rK
+Dv
+Xi
+rK
+yP
+rK
+Xi
+ht
+ht
+Ei
+Ei
+Ei
+Xi
 ZK
 ZK
 ZK
@@ -16209,23 +16142,23 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+rK
+rK
+rK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -16404,21 +16337,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+Xn
+rK
+rK
+rK
+Ek
+bC
+rK
+BD
+rK
+rK
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -16598,21 +16531,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qb
+Qm
+mt
+Ek
+rK
+rK
+rK
+yH
+XN
+XN
+Zv
+Xi
 ZK
 ZK
 ZK
@@ -16792,21 +16725,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qp
+Hb
+rK
+BD
+rK
+rK
+rK
+rK
+Ku
+pp
+mB
+Xi
 ZK
 ZK
 ZK
@@ -16986,21 +16919,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+Bp
+fj
+ix
+Ek
+Dv
+rK
+rK
+lZ
+SY
+SY
+Zv
+Xi
 ZK
 ZK
 ZK
@@ -17180,21 +17113,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+bC
+rK
+Dv
+rK
+Ek
+rK
+Dv
+BD
+rK
+Dv
+rK
+Dv
+Xi
 ZK
 ZK
 ZK
@@ -17374,21 +17307,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+hR
+hR
+hR
+hR
+hR
+rK
+rK
+rK
+Ek
+rK
+rz
+lW
+bC
+Xi
 ZK
 ZK
 ZK
@@ -17568,21 +17501,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+yP
+rK
+Dv
+rK
+Ek
+rK
+rK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -17762,21 +17695,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qb
+Qm
+mt
+BD
+rK
+rK
+Dv
+rK
+rK
+Dv
+rK
+qo
 ZK
 ZK
 ZK
@@ -17956,21 +17889,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qp
+WR
+rK
+Ek
+Dv
+rK
+rK
+Dv
+rK
+rK
+Fm
+qo
 ZK
 ZK
 ZK
@@ -18150,21 +18083,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+Bp
+fj
+ix
+Ek
+rK
+Dv
+rK
+rK
+Dv
+rK
+rK
+qo
 ZK
 ZK
 ZK
@@ -18344,21 +18277,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+bE
+rK
+rK
+rK
+Ek
+rK
+rK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -18538,21 +18471,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+XQ
+XQ
+XQ
+XQ
+XQ
+rK
+rK
+rK
+Ek
+Dv
+lW
+rz
+rK
+Xi
 ZK
 ZK
 ZK
@@ -18732,21 +18665,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+yP
+rK
+rK
+rK
+BD
+Dv
+rK
+BD
+rK
+Dv
+rK
+rK
+Xi
 ZK
 ZK
 ZK
@@ -18926,21 +18859,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qb
+Qm
+mt
+Ek
+yP
+rK
+rK
+Dv
+rK
+Dv
+rK
+Xi
 ZK
 ZK
 ZK
@@ -19120,21 +19053,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+qp
+Ku
+rK
+BD
+rK
+rK
+rK
+rK
+Dv
+rK
+Dv
+Xi
 ZK
 ZK
 ZK
@@ -19314,21 +19247,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+rK
+Bp
+fj
+ix
+Ek
+bE
+rK
+Ek
+rK
+rK
+Dv
+rK
+Xi
 ZK
 ZK
 ZK
@@ -19508,21 +19441,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+ml
+bC
+rK
+rK
+rK
+Ek
+rK
+Dv
+Ek
+rK
+rK
+rK
+bC
+Xi
 ZK
 ZK
 ZK
@@ -19702,21 +19635,21 @@ ZK
 ZK
 ZK
 ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
-ZK
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
+qo
+dP
+qo
+Xi
+Xi
+Xi
+Xi
+Xi
+Xi
 ZK
 ZK
 ZK
@@ -21843,7 +21776,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -22835,7 +22768,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -25120,7 +25053,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 IV
@@ -25327,7 +25260,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -25736,7 +25669,7 @@ ZK
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -25912,7 +25845,7 @@ ZK
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -26876,22 +26809,22 @@ Pp
 iL
 iL
 yW
-ml
-ml
+Dv
+Dv
 PM
-ml
-ml
+Dv
+Dv
 PM
-ml
-ml
+Dv
+Dv
 yW
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
 PM
-ml
-ml
+Dv
+Dv
 Cj
 yW
 iL
@@ -27072,15 +27005,15 @@ iL
 yW
 jK
 Re
-ml
+Dv
 Re
-ml
+Dv
 Re
-ml
+Dv
 St
 yW
-ml
-ml
+Dv
+Dv
 jt
 Cj
 Cj
@@ -27271,14 +27204,14 @@ sS
 xz
 ZZ
 sL
-ml
+Dv
 yW
-ml
+Dv
 Cj
-rK
-Hb
-rK
-Hb
+Dv
+Cj
+Dv
+Cj
 Cj
 Cj
 yW
@@ -27458,26 +27391,26 @@ Pp
 iL
 iL
 yW
-ml
+Dv
 Re
 gY
 RM
-ml
+Dv
 RM
 fh
-ml
+Dv
 yW
 jK
 Cj
-rK
+Dv
 Cj
 Cj
 AS
-Hb
+Cj
 Cj
 yW
 iL
-qp
+iL
 iL
 iL
 iL
@@ -27661,14 +27594,14 @@ Pb
 wG
 ot
 yW
-ml
-Hb
+Dv
+Cj
 jt
-ml
-rK
-Hb
-rK
-ml
+Dv
+Dv
+Cj
+Dv
+Dv
 yW
 iL
 iL
@@ -27846,23 +27779,23 @@ Pp
 iL
 iL
 yW
-ml
-ml
+Dv
+Dv
 cR
 cB
 xz
 Sj
-WR
-ml
+vh
+Dv
 yW
-ml
-rK
+Dv
+Dv
 Cj
 Cj
-Hb
-Hb
-Hb
-ml
+Cj
+Cj
+Cj
+Dv
 yW
 iL
 iL
@@ -28049,14 +27982,14 @@ yW
 Mz
 yW
 yW
-ml
-rK
+Dv
+Dv
 Cj
-ml
-rK
-Hb
-Hb
-ml
+Dv
+Dv
+Cj
+Cj
+Dv
 yW
 iL
 iL
@@ -28239,17 +28172,17 @@ xD
 Jw
 VT
 yW
-rK
-XN
-rK
+Dv
+vh
+Dv
 yW
-ml
-rK
-ml
-ml
-qb
-Qm
-Hb
+Dv
+Dv
+Dv
+Dv
+Dv
+Cj
+Cj
 Cj
 yW
 iL
@@ -28435,16 +28368,16 @@ Ax
 yW
 Zn
 Wr
-kU
+Fm
 yW
-ml
-Hb
+Dv
 Cj
-Qm
 Cj
-Hb
-qb
-ml
+Cj
+Cj
+Cj
+Dv
+Dv
 yW
 bs
 bs
@@ -28625,20 +28558,20 @@ yW
 GU
 vm
 iJ
-at
+ht
 yW
-Ku
-XN
-ml
+VV
+vh
+Dv
 yW
-ml
-Hb
-rK
-qb
+Dv
 Cj
-Hb
-qb
-rK
+Dv
+Dv
+Cj
+Cj
+Dv
+Dv
 yW
 Dv
 Dv
@@ -28826,13 +28759,13 @@ Wr
 Fm
 yW
 jK
-Hb
-Qm
-rK
-Hb
-rK
 Cj
-rK
+Cj
+Dv
+Cj
+Dv
+Cj
+Dv
 yW
 Dv
 Dv
@@ -29012,21 +28945,21 @@ iL
 yW
 GU
 nb
-at
-at
+ht
+ht
 yW
-hR
-XN
-rK
+ht
+vh
+Dv
 yW
-ml
+Dv
 Cj
-Qm
-Hb
-ml
-ml
-Hb
-rK
+Cj
+Cj
+Dv
+Dv
+Cj
+Dv
 yW
 Dv
 Dv
@@ -29211,16 +29144,16 @@ eo
 Io
 Ec
 PK
-rK
+Dv
 yW
-ml
-ml
-Hb
+Dv
+Dv
 Cj
 Cj
-Hb
-Hb
-ml
+Cj
+Cj
+Cj
+Dv
 yW
 Dv
 Dv
@@ -29403,18 +29336,18 @@ yW
 yW
 yW
 yW
-at
-XN
-RE
+ht
+vh
+St
 yW
-ml
-ml
-Cj
-Hb
-Hb
+Dv
+Dv
 Cj
 Cj
-ml
+Cj
+Cj
+Cj
+Dv
 yW
 Dv
 Dv
@@ -29593,22 +29526,22 @@ iL
 iL
 yW
 jK
-ml
-ml
-ml
-at
-at
-XN
-rK
+Dv
+Dv
+Dv
+ht
+ht
+vh
+Dv
 yW
-ml
+Dv
 Cj
 Cj
 Cj
 Cj
-rK
-rK
-ml
+Dv
+Dv
+Dv
 yW
 Dv
 Dv
@@ -29786,22 +29719,22 @@ Pp
 iL
 iL
 yW
-ml
-ml
-at
-at
-at
-hR
+Dv
+Dv
+ht
+ht
+ht
+ht
 vh
-rK
+Dv
 yW
-ml
-ml
+Dv
+Dv
 Cj
 Cj
 Cj
-ml
-Hb
+Dv
+Cj
 Cj
 yW
 Dv
@@ -29980,21 +29913,21 @@ Pp
 iL
 iL
 yW
-ml
+Dv
 bQ
-at
+ht
 bQ
-at
+ht
 Xl
-BD
-kU
+Wr
+Fm
 yW
 yW
 yW
 yW
 yW
 yW
-ml
+Dv
 sV
 yW
 yW
@@ -30174,29 +30107,29 @@ Pp
 iL
 iL
 FL
-ml
-ml
-at
-at
-at
-hR
+Dv
+Dv
+ht
+ht
+ht
+ht
 vh
-rK
+Dv
 yW
 LI
-ml
-ml
+Dv
+Dv
 LI
-ml
-ml
-rK
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
 yW
 jK
-ml
-at
-ml
+Dv
+ht
+Dv
 yW
 iL
 iL
@@ -30368,29 +30301,29 @@ Pp
 iL
 iL
 FL
-ml
-ml
-at
-hR
-hR
-hR
-XN
-ml
+Dv
+Dv
+ht
+ht
+ht
+ht
+vh
+Dv
 yW
 LI
-at
-hR
+ht
+ht
 LI
-ml
-hR
-hR
+Dv
+ht
+ht
 ma
 St
 yW
-ml
-ml
-at
-ml
+Dv
+Dv
+ht
+Dv
 yW
 iL
 iL
@@ -30562,24 +30495,24 @@ Pp
 iL
 iL
 FL
-ml
-ml
-hR
-at
-ml
-at
-XN
-ml
+Dv
+Dv
+ht
+ht
+Dv
+ht
+vh
+Dv
 yW
 tw
-at
-rK
+ht
+Dv
 LI
-ml
-rK
-at
-Bp
-at
+Dv
+Dv
+ht
+dM
+ht
 yW
 yW
 cT
@@ -30753,27 +30686,27 @@ IV
 "}
 (154,1,1) = {"
 Pp
-qp
+iL
 iL
 tN
-ml
-ml
-hR
-ml
-hR
-hR
-XN
+Dv
+Dv
+ht
+Dv
+ht
+ht
+vh
 St
 yW
 wV
-ml
-hR
+Dv
+ht
 tw
-hR
-hR
-at
+ht
+ht
+ht
 dM
-ml
+Dv
 yW
 ht
 ht
@@ -30950,29 +30883,29 @@ Pp
 iL
 iL
 yW
-ml
-at
-hR
-rK
-hR
-ix
+Dv
+ht
+ht
+Dv
+ht
+Xl
 Sw
 Fm
 yW
-at
-hR
-rK
+ht
+ht
+Dv
 LI
-ml
-hR
-at
+Dv
+ht
+ht
 KC
-ml
+Dv
 yW
 jK
-at
-ml
-at
+ht
+Dv
+ht
 yW
 iL
 iL
@@ -31145,26 +31078,26 @@ iL
 iL
 yW
 iq
-at
-hR
-hR
-hR
-rK
+ht
+ht
+ht
+ht
+Dv
 HJ
-ml
+Dv
 yW
-at
-hR
-ml
+ht
+ht
+Dv
 LI
-rK
-hR
-hR
+Dv
+ht
+ht
 dM
-rK
+Dv
 yW
-at
-at
+ht
+ht
 Pr
 Wc
 yW
@@ -31338,29 +31271,29 @@ Pp
 iL
 iL
 yW
-ml
+Dv
 hq
-ml
-ml
-rK
-ml
+Dv
+Dv
+Dv
+Dv
 HJ
-ml
+Dv
 yW
 iq
-hR
-ml
+ht
+Dv
 LI
-rK
-hR
-hR
-Bp
-RE
+Dv
+ht
+ht
+dM
+St
 yW
-at
-at
+ht
+ht
 by
-at
+ht
 yW
 iL
 iL
@@ -31542,19 +31475,19 @@ CU
 yW
 yW
 yW
-yP
+Ph
 yW
 yW
-rK
-at
-hR
+Dv
+ht
+ht
 ma
-rK
+Dv
 yW
-at
-at
+ht
+ht
 by
-at
+ht
 yW
 iL
 iL
@@ -31726,28 +31659,28 @@ Pp
 iL
 iL
 yW
-rK
-ml
+Dv
+Dv
 PM
-rK
-rK
-ml
+Dv
+Dv
+Dv
 HJ
 yW
 iq
-at
-hR
-ml
+ht
+ht
+Dv
 yW
-Xi
-at
-hR
-Bp
-rK
+iq
+ht
+ht
+dM
+Dv
 yW
 VV
-at
-at
+ht
+ht
 St
 yW
 iL
@@ -31920,8 +31853,8 @@ Pp
 iL
 iL
 yW
-rK
-rK
+Dv
+Dv
 Hi
 Hi
 Hi
@@ -31931,18 +31864,18 @@ Et
 tr
 tr
 tr
-rK
-Ek
-rK
-at
-hR
-rK
-rK
+Dv
+qJ
+Dv
+ht
+ht
+Dv
+Dv
 yW
-ml
-at
-at
-ml
+Dv
+ht
+ht
+Dv
 yW
 iL
 iL
@@ -32114,29 +32047,29 @@ Pp
 iL
 iL
 yW
-ml
-rK
-rK
-ml
-ml
-rK
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 Rh
 yW
-hR
-hR
-hR
+ht
+ht
+ht
 St
 yW
-rK
-rK
-rK
-hR
-rK
+Dv
+Dv
+Dv
+ht
+Dv
 yW
-ml
-at
-at
-ml
+Dv
+ht
+ht
+Dv
 yW
 iL
 iL
@@ -32144,7 +32077,7 @@ iL
 ZK
 ZK
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -32308,9 +32241,9 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 yW
 yW
@@ -32324,7 +32257,7 @@ yW
 yW
 yW
 yW
-yP
+Ph
 yW
 yW
 yW
@@ -32502,29 +32435,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-Xi
+iq
 PM
-lZ
-rK
-hR
-rK
-ml
-ml
-at
-at
-at
-rK
-hR
-ml
+fh
+Dv
+ht
+Dv
+Dv
+Dv
+ht
+ht
+ht
+Dv
+ht
+Dv
 yW
-at
-at
-ml
-at
+ht
+ht
+Dv
+ht
 yW
 iL
 iL
@@ -32696,29 +32629,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
+Dv
+Dv
 St
 yW
-rK
-rK
-hR
-hR
-hR
-hR
-hR
-hR
-hR
-rK
-hR
-hR
-rK
+Dv
+Dv
+ht
+ht
+ht
+ht
+ht
+ht
+ht
+Dv
+ht
+ht
+Dv
 St
 yW
 jK
-at
-at
-at
+ht
+ht
+ht
 yW
 iL
 iL
@@ -32890,29 +32823,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
-rK
-rK
-ml
-ml
-rK
-rK
-rK
-ml
-rK
-rK
-rK
-rK
-rK
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 yW
-ml
-at
-ml
-ml
+Dv
+ht
+Dv
+Dv
 yW
 iL
 iL
@@ -33084,18 +33017,18 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 yW
 yW
 yW
 yW
 yW
-ml
-hR
-rK
+Dv
+ht
+Dv
 yW
 yW
 yW
@@ -33103,9 +33036,9 @@ yW
 yW
 yW
 yW
-ml
-at
-ml
+Dv
+ht
+Dv
 St
 yW
 iL
@@ -33278,29 +33211,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
 qJ
-ml
-hR
-ml
+Dv
+ht
+Dv
 yW
-ml
+Dv
 cp
-ml
+Dv
 cp
-ml
+Dv
 cp
-ml
+Dv
 cp
-ml
-ml
+Dv
+Dv
 yW
 iL
 iL
@@ -33472,29 +33405,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 iq
-at
-at
+ht
+ht
 St
 yW
-rK
-hR
-rK
+Dv
+ht
+Dv
 yW
 gW
 cp
-at
+ht
 cp
-ml
+Dv
 by
-ml
+Dv
 cp
-at
-ml
+ht
+Dv
 yW
 iL
 iL
@@ -33666,29 +33599,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 yW
 yW
 yW
 yW
 yW
-bC
-hR
-rK
+jK
+ht
+Dv
 yW
 FU
 cp
-ml
+Dv
 by
-at
+ht
 by
-ml
+Dv
 cp
-at
-at
+ht
+ht
 yW
 iL
 iL
@@ -33860,29 +33793,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 by
-at
-ml
+ht
+Dv
 yW
-rK
-hR
-rK
+Dv
+ht
+Dv
 yW
 gW
-ml
-ml
-at
-at
-ml
-ml
-at
-ml
-at
+Dv
+Dv
+ht
+ht
+Dv
+Dv
+ht
+Dv
+ht
 yW
 iL
 iL
@@ -34055,28 +33988,28 @@ iL
 iL
 yW
 iq
-ml
-ml
+Dv
+Dv
 yW
-ml
+Dv
 DH
-at
-ml
+ht
+Dv
 yW
-hR
-rK
-hR
+ht
+Dv
+ht
 hY
 Hc
-at
-at
-ml
-at
-ml
-at
-ml
-at
-ml
+ht
+ht
+Dv
+ht
+Dv
+ht
+Dv
+ht
+Dv
 yW
 iL
 iL
@@ -34248,29 +34181,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-ml
+Dv
 St
 yW
-hR
-rK
-rK
+ht
+Dv
+Dv
 yW
 gW
-ml
-at
-at
-at
-at
-ml
-ml
-at
-ml
+Dv
+ht
+ht
+ht
+ht
+Dv
+Dv
+ht
+Dv
 yW
 iL
 iL
@@ -34442,28 +34375,28 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 iq
-at
-at
-at
+ht
+ht
+ht
 qJ
-rK
-hR
-hR
+Dv
+ht
+ht
 yW
 ax
 cp
-at
+ht
 by
-at
+ht
 by
-at
-at
-ml
+ht
+ht
+Dv
 St
 yW
 iL
@@ -34636,29 +34569,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 by
-at
+ht
 St
 yW
-ml
-rK
-hR
+Dv
+Dv
+ht
 yW
 gW
 cp
-ml
+Dv
 by
-ml
+Dv
 cp
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
 yW
 iL
 iL
@@ -34830,29 +34763,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-ml
-ml
+Dv
+Dv
 yW
-ml
-hR
+Dv
+ht
 Gz
 yW
-ml
+Dv
 cp
-ml
+Dv
 cp
-ml
+Dv
 cp
-ml
+Dv
 Qj
 Cj
-ml
+Dv
 yW
 iL
 iL
@@ -35024,18 +34957,18 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-ml
-ml
+Dv
+Dv
 yW
-rK
-hR
-rK
+Dv
+ht
+Dv
 yW
 yW
 yW
@@ -35218,35 +35151,35 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 yW
 yW
 yW
 yW
 yW
-ml
-hR
-rK
+Dv
+ht
+Dv
 yW
 Ea
-rK
-Hb
+Dv
+Cj
 Ze
 yW
 yo
-ml
+Dv
 PM
 Cj
-ml
+Dv
 yW
 iL
 iL
 iL
 ZK
-Zv
+ZK
 ZK
 ZK
 ZK
@@ -35412,21 +35345,21 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-ml
-ml
+Dv
+Dv
 yW
-rK
-rK
-at
+Dv
+Dv
+ht
 yW
-qo
-Hb
+Fz
+Cj
 Cj
 rb
 yW
@@ -35606,22 +35539,22 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-at
-ml
+ht
+Dv
 yW
-rK
-at
-ml
+Dv
+ht
+Dv
 yW
-qo
-Hb
-Hb
+Fz
+Cj
+Cj
 rb
 yW
 ZD
@@ -35800,28 +35733,28 @@ Pp
 iL
 iL
 yW
-ml
-ml
+Dv
+Dv
 St
 yW
 iq
 by
-at
+ht
 St
 yW
-rK
-hR
-rK
+Dv
+ht
+Dv
 yW
 Fz
 Cj
-Hb
+Cj
 HF
 yW
 yW
 yW
 yW
-ml
+Dv
 Cj
 yW
 iL
@@ -35994,24 +35927,24 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
-at
-at
-ml
+Dv
+ht
+ht
+Dv
 qJ
-at
-rK
-rK
+ht
+Dv
+Dv
 yW
 HF
-Hb
-Hb
-Hb
-Hb
+Cj
+Cj
+Cj
+Cj
 HF
 yW
 yW
@@ -36188,29 +36121,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-at
+ht
 by
-at
+ht
 St
 yW
-at
-rK
+ht
+Dv
 gW
 yW
 HF
-Hb
-Hb
+Cj
+Cj
 UU
-Hb
+Cj
 DK
 yW
 PM
-ml
-ml
+Dv
+Dv
 yW
 iL
 iL
@@ -36382,29 +36315,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 by
-at
-ml
+ht
+Dv
 yW
-at
-hR
+ht
+ht
 uk
 Yh
-Hb
-Hb
-Hb
-Hb
-Hb
+Cj
+Cj
+Cj
+Cj
+Cj
 rb
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 iL
 iL
@@ -36576,17 +36509,17 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
-ml
+Dv
 cp
-ml
-ml
+Dv
+Dv
 yW
-ml
-at
+Dv
+ht
 Hc
 yW
 iq
@@ -36597,8 +36530,8 @@ Cj
 HF
 yW
 iq
-ml
-ml
+Dv
+Dv
 yW
 iL
 iL
@@ -36770,9 +36703,9 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 yW
 yW
@@ -36790,9 +36723,9 @@ yW
 yW
 yW
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 yW
 iL
 iL
@@ -36964,29 +36897,29 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 PM
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
 yW
-ml
-ml
-ml
+Dv
+Dv
+Dv
 PM
-ml
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 yW
 iL
 iL
@@ -37158,28 +37091,28 @@ Pp
 iL
 iL
 yW
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 ht
-ml
+Dv
 ht
 yW
 iL
@@ -37341,7 +37274,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -37349,30 +37282,30 @@ IV
 "}
 (188,1,1) = {"
 Pp
-qp
+iL
 iL
 yW
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 yW
-ml
-ml
-ml
-ml
-ml
-ml
-ml
-ml
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
+Dv
 ht
 ht
 yW
@@ -37398,7 +37331,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
@@ -37752,7 +37685,7 @@ iL
 iL
 iL
 iL
-qp
+iL
 iL
 iL
 iL
@@ -38079,7 +38012,7 @@ ZK
 ZK
 ZK
 ZK
-lW
+ZK
 ZK
 ZK
 ZK
