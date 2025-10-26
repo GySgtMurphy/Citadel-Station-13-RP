@@ -48,13 +48,13 @@
 	name = "Endeavour Excursion Shuttle"
 	icon_state = "shuttle"
 
-/area/shuttle/excursion/endeavour/general
+/area/shuttle/excursion/general/endeavour
 	name = "\improper Endeavour Excursion Shuttle"
 
-/area/shuttle/excursion/endeavour/cockpit
+/area/shuttle/excursion/cockpit/endeavour
 	name = "\improper Endeavour Excursion Shuttle Cockpit"
 
-/area/shuttle/excursion/endeavour/cargo
+/area/shuttle/excursion/cargo/endeavour
 	name = "\improper Endeavour Excursion Shuttle Cargo"
 
 /obj/machinery/computer/shuttle_control/explore/excursion
