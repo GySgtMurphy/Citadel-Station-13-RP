@@ -1188,7 +1188,7 @@
 			src.check_for_internal_damage(list(MECHA_INT_FIRE,MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST,MECHA_INT_SHORT_CIRCUIT),ignore_threshold)
 
 		//AP projectiles have a chance to cause additional damage
-		if(Proj.legacy_penetrating)
+		if(Proj.legacy_penetrating >= 2)
 			var/hit_occupant = 1 //only allow the occupant to be hit once
 			for(var/i in 1 to min(Proj.legacy_penetrating, round(Proj.damage_force/15)))
 				if(src.occupant_legacy && hit_occupant && prob(20))
@@ -1196,7 +1196,7 @@
 					hit_occupant = 0
 				else
 					if(pass_damage > internal_damage_minimum)	//Only decently painful attacks trigger a chance of mech damage.
-						src.check_for_internal_damage(list(MECHA_INT_FIRE,MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST,MECHA_INT_SHORT_CIRCUIT), 1)
+						src.check_for_internal_damage(list(MECHA_INT_FIRE,MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST,MECHA_INT_SHORT_CIRCUIT), 0)
 
 				Proj.legacy_penetrating--
 

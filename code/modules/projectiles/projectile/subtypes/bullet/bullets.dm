@@ -12,6 +12,7 @@
 /obj/projectile/bullet/pistol/ap
 	damage_force = 15
 	damage_tier = 4
+	legacy_penetrating = 1
 
 /obj/projectile/bullet/pistol/hp
 	damage_force = 25
@@ -37,6 +38,7 @@
 /obj/projectile/bullet/pistol/medium/ap
 	damage_force = 20
 	damage_tier = 4.25
+	legacy_penetrating = 1
 
 /obj/projectile/bullet/pistol/medium/hp
 	damage_force = 30
@@ -210,6 +212,7 @@
 /obj/projectile/bullet/rifle/a762/ap
 	damage_force = 30
 	damage_tier = 4.75
+	legacy_penetrating = 2
 
 /obj/projectile/bullet/rifle/a762/ap/silver // Only used by the Service Weapon
 	damage_force = 30
@@ -217,6 +220,7 @@
 	SA_bonus_damage = 30 // 60 total against demons
 	SA_vulnerability = MOB_CLASS_DEMONIC | MOB_CLASS_ABERRATION
 	holy = TRUE
+	legacy_penetrating = 2
 
 /obj/projectile/bullet/rifle/a762/hp
 	damage_force = 40
@@ -249,6 +253,7 @@
 /obj/projectile/bullet/rifle/a556/ap
 	damage_force = 20
 	damage_tier = 4.75
+	legacy_penetrating = 2
 
 /obj/projectile/bullet/rifle/a556/hp
 	damage_force = 35
@@ -278,7 +283,7 @@
 /obj/projectile/bullet/mecha/a12mm_gauss //Mecha gauss rifle round.
 	fire_sound = 'sound/weapons/Gunshot_cannon.ogg' // This is literally an anti-tank rifle caliber. It better sound like a fucking cannon.
 	damage_force = 60
-	legacy_penetrating = 1
+	legacy_penetrating = 2
 	damage_tier = 6
 
 /* Miscellaneous */
