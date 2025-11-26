@@ -32,3 +32,5 @@
 
 /obj/projectile/bullet/rifle/a95
 	damage_force = 40
+	legacy_penetrating = 2
+	damage_tier = 4.25

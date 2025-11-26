@@ -3,7 +3,7 @@
 	desc = "A superior version of the standard Hephaestus Autocannon MK2 design."
 	icon_state = "mecha_uac2"
 	equip_cooldown = 10
-	projectile = /obj/projectile/bullet/pistol/medium
+	projectile = /obj/projectile/bullet/pistol/medium/ap
 	fire_sound = 'sound/weapons/Gunshot_machinegun.ogg'
 	projectiles = 30 //10 bursts, matching the Scattershot's 10. Also, conveniently, doesn't eat your powercell when reloading like 300 bullets does.
 	projectiles_per_shot = 3
@@ -28,7 +28,7 @@
 	name = "\improper gauss rifle"
 	desc = "The current standard in non-laser, anti-armor firepower, this weapon is the same as those mounted on light tanks for their primary weapon. Fires a single nickle-iron slug at high speed. Requires a long charge time between shots. "
 	icon_state = "mecha_uac2-rig"
-	equip_cooldown = 3 SECONDS
+	equip_cooldown = 2 SECONDS
 	projectile = /obj/projectile/bullet/mecha/a12mm_gauss
 	fire_sound = 'sound/weapons/Gunshot_cannon.ogg'
 	projectiles = 10 //Mag size

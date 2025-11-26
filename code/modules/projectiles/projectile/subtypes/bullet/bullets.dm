@@ -8,6 +8,7 @@
 /obj/projectile/bullet/pistol/lap //Light Armor Piercing
 	damage_force = 20
 	damage_tier = 3.5
+	legacy_penetrating = 1
 
 /obj/projectile/bullet/pistol/ap
 	damage_force = 15
