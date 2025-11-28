@@ -1188,9 +1188,9 @@
 			src.check_for_internal_damage(list(MECHA_INT_FIRE,MECHA_INT_TEMP_CONTROL,MECHA_INT_TANK_BREACH,MECHA_INT_CONTROL_LOST,MECHA_INT_SHORT_CIRCUIT),ignore_threshold)
 
 		//AP projectiles have a chance to cause additional damage
-		if(Proj.legacy_penetrating >= 2)
+		if(Proj.legacy_penetrating >= 1)
 			var/hit_occupant = 1 //only allow the occupant to be hit once
-			for(var/i in 1 to min(Proj.legacy_penetrating, round(Proj.damage_force/15)))
+			for(var/i in 1 to min(Proj.legacy_penetrating, round(Proj.damage_force/25)))
 				if(src.occupant_legacy && hit_occupant && prob(20))
 					Proj.impact(occupant_legacy)
 					hit_occupant = 0
