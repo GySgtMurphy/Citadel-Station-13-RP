@@ -23745,6 +23745,12 @@
 	},
 /turf/simulated/floor/carpet/arcadecarpet,
 /area/sector/nebula_tradeport/motel/arcade)
+"mfF" = (
+/obj/structure/panic_button{
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/dark,
+/area/shuttle/trade_ship/general)
 "mgo" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
@@ -26560,6 +26566,10 @@
 	},
 /turf/simulated/floor/plating,
 /area/shuttle/salvager)
+"tfg" = (
+/obj/machinery/telecomms/relay/preset/telecomms,
+/turf/simulated/floor/plating,
+/area/shuttle/trade_ship/general)
 "tfo" = (
 /obj/structure/table/bench/wooden,
 /obj/machinery/atmospherics/component/unary/vent_pump/on,
@@ -55447,7 +55457,7 @@ aCt
 aMK
 axd
 awZ
-aNO
+mfF
 aIM
 aIM
 aIM
@@ -55631,7 +55641,7 @@ adA
 aJv
 aJv
 aJv
-aIM
+tfg
 aIM
 aab
 awD
