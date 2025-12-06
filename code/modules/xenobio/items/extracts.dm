@@ -15,6 +15,7 @@
 	var/slime_type
 	atom_flags = OPENCONTAINER
 
+	worth_intrinsic = 100
 
 /obj/item/slime_extract/Initialize(mapload)
 	. = ..()

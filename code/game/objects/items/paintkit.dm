@@ -210,6 +210,7 @@
 /obj/item/kit/paint
 	name = "mecha customisation kit"
 	desc = "A kit containing all the needed tools and parts to repaint a mech."
+	worth_intrinsic = 100
 	var/removable = null
 
 /obj/item/kit/paint/can_customize(var/obj/vehicle/sealed/mecha/M)

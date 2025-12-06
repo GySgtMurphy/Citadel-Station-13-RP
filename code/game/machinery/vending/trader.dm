@@ -5,45 +5,51 @@
 	icon_state = "generic"
 	icon_deny = "generic-deny"
 	icon_vend = "generic-vend"
-	product_slogans = "My suits will protect you from space !"
-	product_ads = "Please buy my suits !; I just wanted this orange one, but I had to buy the full bundle ! Help me !; Look ! Those voidsuit are Fleeexible !"
+	product_slogans = "The wonders of tomorrow, today, at a reasonable price!; Why wait for progress when you can buy it!"
+	product_ads = "Get that research!; Progress!; I can't believe it's not patent infringement!"
 
 	products_auto_init = list(
-		/obj/item/clothing/suit/space/emergency = 5,
-		/obj/item/clothing/head/helmet/space/emergency = 5,
-		/obj/item/clothing/suit/space/traveler = 2,
-		/obj/item/clothing/suit/space/traveler/blue = 2,
-		/obj/item/clothing/suit/space/traveler/green/dark = 2,
-		/obj/item/clothing/suit/space/traveler/green = 2,
-		/obj/item/clothing/suit/space/traveler/black = 2,
-		/obj/item/clothing/head/helmet/space/traveler = 2,
-		/obj/item/clothing/head/helmet/space/traveler/blue = 2,
-		/obj/item/clothing/head/helmet/space/traveler/green/dark = 2,
-		/obj/item/clothing/head/helmet/space/traveler/green = 2,
-		/obj/item/clothing/head/helmet/space/traveler/black = 2,
-		/obj/item/clothing/head/helmet/space/void/explorer = 3,
-		/obj/item/clothing/suit/space/void/explorer = 3,
-		/obj/item/tank/emergency/oxygen = 10,
-		/obj/item/tank/emergency/oxygen/double = 2,
-		/obj/item/clothing/mask/gas/clear = 10,
+		/obj/item/stack/material/bananium = 1,
+		/obj/item/stack/material/silencium = 1,
+		/obj/item/stack/material/valhollide = 1,
+		/obj/item/slime_extract/bluespace = 1,
+		/obj/item/slime_extract/cerulean = 1,
+		/obj/item/slime_extract/amber = 1,
+		/obj/item/slime_extract/sapphire = 1,
+		/obj/item/slime_extract/ruby = 1,
+		/obj/item/slime_extract/emerald = 1,
+		/obj/item/slime_extract/light_pink = 1,
+		/obj/item/kit/paint/ripley = 3,
+		/obj/item/kit/paint/ripley/death = 3,
+		/obj/item/kit/paint/ripley/flames_red = 3,
+		/obj/item/kit/paint/ripley/flames_blue = 3,
+		/obj/item/kit/paint/ripley/pirate = 3,
+		/obj/item/kit/paint/ripley/junker = 3,
+		/obj/item/kit/paint/ripley/battered = 3,
+		/obj/item/kit/paint/ripley/medical = 3,
+		/obj/item/kit/paint/ripley/sovjet = 3,
+		/obj/item/kit/paint/ripley/arnold = 3,
+		/obj/item/kit/paint/ripley/clown = 3,
+		/obj/item/kit/paint/ripley/dreadnought = 3,
+		/obj/item/kit/paint/gygax = 3,
+		/obj/item/kit/paint/gygax/blue = 3,
+		/obj/item/kit/paint/gygax/green = 3,
+		/obj/item/kit/paint/gygax/turtle = 3,
+		/obj/item/kit/paint/gygax/mad_jack = 3,
+		/obj/item/kit/paint/gygax/osbourne = 3,
+		/obj/item/kit/paint/gygax/carp = 3,
+		/obj/item/kit/paint/durand = 3,
+		/obj/item/kit/paint/durand/paladin = 3,
+		/obj/item/kit/paint/durand/turtle = 3,
+		/obj/item/kit/paint/honker = 3,
+		/obj/item/kit/paint/fighter/allure/royalty = 3,
+		/obj/item/kit/paint/fighter/duke/deepblue = 3,
+		/obj/item/kit/paint/fighter/duke/clockwork = 3
+
+
 	)
 
 	prices = list(
 		/obj/item/clothing/suit/space/emergency = 10,
-		/obj/item/clothing/head/helmet/space/emergency = 10,
-		/obj/item/clothing/suit/space/traveler = 150,
-		/obj/item/clothing/suit/space/traveler/blue = 150,
-		/obj/item/clothing/suit/space/traveler/green/dark = 150,
-		/obj/item/clothing/suit/space/traveler/green = 150,
-		/obj/item/clothing/suit/space/traveler/black = 150,
-		/obj/item/clothing/head/helmet/space/traveler = 150,
-		/obj/item/clothing/head/helmet/space/traveler/blue = 150,
-		/obj/item/clothing/head/helmet/space/traveler/green/dark = 150,
-		/obj/item/clothing/head/helmet/space/traveler/green = 150,
-		/obj/item/clothing/head/helmet/space/traveler/black = 150,
-		/obj/item/clothing/head/helmet/space/void/explorer = 125,
-		/obj/item/clothing/suit/space/void/explorer = 125,
-		/obj/item/tank/emergency/oxygen = 5,
-		/obj/item/tank/emergency/oxygen/double = 30,
-		/obj/item/clothing/mask/gas/clear = 5,
+
 	)
