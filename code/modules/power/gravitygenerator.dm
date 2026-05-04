@@ -153,6 +153,7 @@ GLOBAL_LIST_EMPTY(gravity_generators)
 			qdel(O)
 	return ..()
 
+// TODO: violates GC
 /obj/machinery/gravity_generator/main/proc/setup_parts()
 	var/turf/our_turf = get_turf(src)
 	// 9x9 block obtained from the bottom middle of the block
@@ -411,7 +412,7 @@ GLOBAL_LIST_EMPTY(gravity_generators)
 
 	//Actually doing it special this time instead of letting using_map decide
 	if((LEGACY_MAP_DATUM).use_overmap)
-		var/obj/overmap/entity/visitable/S = get_overmap_sector(my_z)
+		var/obj/overmap/entity/visitable/S = SSovermaps.get_enclosing_overmap_entity(my_z)
 		if(S)
 			levels = S.get_space_zlevels() //Just the spacey ones
 		else

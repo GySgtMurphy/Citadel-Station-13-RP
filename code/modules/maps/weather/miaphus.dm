@@ -82,7 +82,7 @@
 
 		new_color = rgb(new_r, new_g, new_b)
 
-	update_sun_deferred(new_brightness, new_color)
+	set_sun_lighting(new_brightness, new_color)
 
 
 /datum/weather_holder/miaphus
@@ -501,10 +501,10 @@
 	name = "deep ocean"
 	alpha = 0
 
-/obj/machinery/power/smes/buildable/offmap_spawn/empty/New()
-	..(1)
+/obj/machinery/power/smes/buildable/offmap_spawn/empty/Initialize(mapload, install_coils)
 	charge = 0
 	RCon = TRUE
 	input_level = input_level_max
 	output_level = output_level_max
 	input_attempt = TRUE
+	return ..()
