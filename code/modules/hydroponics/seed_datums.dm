@@ -1753,7 +1753,7 @@
 	seed_name = "shimash"
 	display_name = "shimash"
 	kitchen_tag = "shimash"
-	chems = list("shimashpulp" = list(5,10))
+	chems = list("shismashpulp" = list(5,10))
 
 /datum/seed/shimash/New()
 	..()
